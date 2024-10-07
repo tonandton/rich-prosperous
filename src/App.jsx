@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Service";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
-import Testimonial from "./components/testimonial";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (

@@ -30,7 +30,7 @@ body {
 }
 
 .react-tabs__tab--selected {
-       background: #fff;
+       background: white;
        border: 1px solid #004aad !important; 
        color: black;
        border-radius: 5px;
