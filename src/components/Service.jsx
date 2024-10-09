@@ -99,7 +99,9 @@ const Service = () => {
             <TabPanel>
               <div className="flex flex-col md:flex-row gap-8 mt-8">
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
-                  <h3 className="text-3xl font-semibold text-blue-700 mb-4"></h3>
+                  <h3 className="text-3xl font-semibold text-blue-700 mb-4">
+                    หัวข้อที่ 3
+                  </h3>
                   <p className="mb-8">
                     ซูโม่เพรียวบางสมิติเวชหมั่นโถว พุทธภูมิ ราเมน
                     อีสต์เอ็นทรานซ์ซานตาคลอสสเตริโอธุรกรรม
