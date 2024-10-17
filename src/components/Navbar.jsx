@@ -12,7 +12,14 @@ const Navbar = () => {
     setIsopen(false);
   };
   const handleScroll = () => {
-    const sections = ["home", "services", "about", "pricing", "testimonial"];
+    const sections = [
+      "home",
+      "services",
+      "about",
+      "howtowork",
+      "pricing",
+      "testimonial",
+    ];
     const scrollPosition = window.scrollY + 100;
 
     sections.forEach((section) => {
@@ -59,7 +66,7 @@ const Navbar = () => {
           }}
           className={`text-black ${activeSection === "home" ? "isActive" : ""}`}
         >
-          Home
+          หน้าแรก
         </motion.a>
       </li>
       <li>
@@ -76,7 +83,7 @@ const Navbar = () => {
             activeSection === "services" ? "isActive" : ""
           }`}
         >
-          Services
+          บริการ
         </motion.a>
       </li>
       <li>
@@ -93,9 +100,26 @@ const Navbar = () => {
             activeSection === "about" ? "isActive" : ""
           }`}
         >
-          About
+          เกี่ยวกับ
         </motion.a>
       </li>
+      {/* <li>
+        <motion.a
+          whileHover={{ scale: 1.1 }}
+          whileTop={{ scale: 0.9 }}
+          href="#howtowork"
+          onClick={(e) => {
+            e.preventDefault();
+            handleCloseMenu();
+            handleScrollTo("howtowork");
+          }}
+          className={`text-black ${
+            activeSection === "howtowork" ? "isActive" : ""
+          }`}
+        >
+          How To Work
+        </motion.a>
+      </li> */}
       <li>
         <motion.a
           whileHover={{ scale: 1.1 }}
@@ -110,7 +134,7 @@ const Navbar = () => {
             activeSection === "pricing" ? "isActive" : ""
           }`}
         >
-          Pricing
+          ข้อกำหนด
         </motion.a>
       </li>
       <li>

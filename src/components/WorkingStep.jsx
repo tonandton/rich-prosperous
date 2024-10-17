@@ -2,7 +2,10 @@ import React from "react";
 
 const WorkingStep = () => {
   return (
-    <div className="relative bg-cover bg-center py-12 bg-working-img">
+    <div
+      id="howtowork"
+      className="relative bg-cover bg-center py-12 bg-working-img"
+    >
       <div className="absolute inset-0 bg-black bg-opacity-85"></div>
       <div className="relative container mx-auto px-4 py-20">
         <div className="text-white text-center mb-20">
