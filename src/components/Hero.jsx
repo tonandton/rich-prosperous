@@ -6,9 +6,18 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-heroBg text-black flex items-center pt-28 md:max-h-screen"
+      className="bg-heroBg text-black flex items-center pt-28 md:h-screen"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hidden gap-12 h-full">
+        {/* right side */}
+        <div className="md:w-1/2 top-20">
+          <img
+            src={logoimg}
+            alt="logo"
+            className="w-full object-cover rounded-xl"
+          />
+        </div>
+
         {/* left side */}
         <div className="md:w-1/2">
           <h1 className="text-4xl font-secondary font-bold mb-4 md:w-3/5 leading-snug">
@@ -25,14 +34,6 @@ const Hero = () => {
               <IoArrowForwardCircle />
             </a>
           </button>
-        </div>
-        {/* right side */}
-        <div className="md:w-1/2 top-20">
-          <img
-            src={logoimg}
-            alt="logo"
-            className="w-full object-cover rounded-xl"
-          />
         </div>
       </div>
     </section>
