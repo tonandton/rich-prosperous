@@ -1,6 +1,8 @@
 import React from "react";
 import { IoArrowForwardCircle } from "react-icons/io5";
 import logoimg from "../../public/rich-icon.png";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utilis/animationVariants";
 
 const Hero = () => {
   return (
@@ -9,17 +11,29 @@ const Hero = () => {
       className="bg-heroBg text-black flex items-center pt-28 md:h-screen"
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hidden gap-12 h-full">
-        {/* right side */}
-        <div className="md:w-1/2 top-20">
+        {/* left side */}
+        <motion.div
+          variants={fadeIn("left", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="md:w-1/2 top-20"
+        >
           <img
             src={logoimg}
             alt="logo"
             className="w-full object-cover rounded-xl"
           />
-        </div>
+        </motion.div>
 
-        {/* left side */}
-        <div className="md:w-1/2">
+        {/* right side */}
+        <motion.div
+          variants={fadeIn("down", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="md:w-1/2"
+        >
           <h1 className="text-4xl font-secondary font-bold mb-4 md:w-3/5 leading-snug">
             Rich Prosperous
           </h1>
@@ -34,7 +48,7 @@ const Hero = () => {
               <IoArrowForwardCircle />
             </a>
           </button>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

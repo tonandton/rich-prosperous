@@ -49,7 +49,7 @@ const Pricing = () => {
   };
 
   return (
-    <div className="bg-[#f7f8fc pt-32" id="pricing">
+    <div className="bg-[#f7f8fc] pt-32" id="pricing">
       <div className="container mx-auto px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold font-secondary mb-3">

@@ -1,12 +1,20 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.scss";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utilis/animationVariants";
 
 const Service = () => {
   return (
     <div id="services" className="bg-[#f7f8fc]">
       <div className="pt-28 px-4 container mx-auto">
-        <div className="text-center space-y-5">
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="text-center space-y-5"
+        >
           <h2 className="text-4xl font-bold font-secondary text-black">
             รับสร้างโกดังอสังหาริมทรัพย์
           </h2>
@@ -18,9 +26,15 @@ const Service = () => {
             เมจิคเซฟตี้ติวเตอร์เรตติ้งไฮบริด ผิดพลาดเสือโคร่งนาฏยศาลาโอ้ย
             อินเตอร์ คาสิโนคอร์ปอเรชั่น
           </p>
-        </div>
+        </motion.div>
         {/* service category */}
-        <div className="py-12 md:w-4/5 mx-auto">
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="py-12 md:w-4/5 mx-auto"
+        >
           <Tabs>
             <TabList className="flex flex-wrap justify-between items-center md:gap-8 gap-4">
               <Tab>หัวข้อที่ 1</Tab>
@@ -30,7 +44,13 @@ const Service = () => {
             </TabList>
 
             <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
+              <motion.div
+                variants={fadeIn("up", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="flex flex-col md:flex-row gap-8 mt-8"
+              >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
                     หัวข้อที่ 1
@@ -59,11 +79,17 @@ const Service = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-              </div>
+              </motion.div>
             </TabPanel>
 
             <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
+              <motion.div
+                variants={fadeIn("up", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="flex flex-col md:flex-row gap-8 mt-8"
+              >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
                     หัวข้อที่ 2
@@ -93,11 +119,17 @@ const Service = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-              </div>
+              </motion.div>
             </TabPanel>
 
             <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
+              <motion.div
+                variants={fadeIn("up", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="flex flex-col md:flex-row gap-8 mt-8"
+              >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
                     หัวข้อที่ 3
@@ -129,11 +161,17 @@ const Service = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-              </div>
+              </motion.div>
             </TabPanel>
 
             <TabPanel>
-              <div className="flex flex-col md:flex-row gap-8 mt-8">
+              <motion.div
+                variants={fadeIn("up", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="flex flex-col md:flex-row gap-8 mt-8"
+              >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
                     หัวที่ 4
@@ -162,10 +200,10 @@ const Service = () => {
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
-              </div>
+              </motion.div>
             </TabPanel>
           </Tabs>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

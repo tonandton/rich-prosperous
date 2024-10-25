@@ -23,7 +23,7 @@ const Testimonial = () => {
 
   return (
     <div id="testimonial" className="bg-[#f7f8fc] py-12">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold font-secondary mb-3">
             Prefect for Small & Large Brands
@@ -38,9 +38,9 @@ const Testimonial = () => {
           {testimoials.map((testimoial, index) => (
             <div
               key={index}
-              className="relative bg-white rounded-lg p-6 flex-1"
+              className="relative bg-white rounded-lg p-6 flex-1 shadow-lg"
             >
-              <div className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="absolute top-0 left-0 transform -translate-x-1/2 -translate-y-1/2 ">
                 <BsFillChatQuoteFill className="size-12 text-blue-700" />
               </div>
               <div className="flex flex-col space-y-3 mb-4">

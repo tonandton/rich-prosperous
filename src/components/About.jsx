@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { IoArrowForwardCircle, IoPlay } from "react-icons/io5";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utilis/animationVariants";
 
 const About = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -15,7 +17,13 @@ const About = () => {
   return (
     <div id="about" className="bg-[#f7f8fc] pb-16 pt-20">
       <div className="container mx-auto">
-        <div className="py-12 px-4 md:w-4/5 mx-auto flex flex-col md:flex-row items-center gap-8">
+        <motion.div
+          variants={fadeIn("down", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="py-12 px-4 md:w-4/5 mx-auto flex flex-col md:flex-row items-center gap-8"
+        >
           {/* left side */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             {!isVideoPlaying ? (
@@ -53,7 +61,7 @@ const About = () => {
               </a>
             </button>
           </div>
-        </div>
+        </motion.div>
 
         {isVideoPlaying && (
           <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
