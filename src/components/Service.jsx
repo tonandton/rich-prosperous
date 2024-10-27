@@ -29,7 +29,7 @@ const Service = () => {
         </motion.div>
         {/* service category */}
         <motion.div
-          variants={fadeIn("up", 0.2)}
+          variants={fadeIn("up", 0.1)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
