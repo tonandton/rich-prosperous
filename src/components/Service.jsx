@@ -3,6 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.scss";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
+import typeH from "../../public/HW-H.jpg";
 
 const Service = () => {
   return (
@@ -56,25 +57,25 @@ const Service = () => {
                     หัวข้อที่ 1
                   </h3>
                   <p className="mb-8">
-                    มวลชนซามูไร ออร์เดอร์สัมนาคอมเมนท์พอเพียงคาวบอย ทัวร์เอาต์
-                    ฮ็อตซินโดรมฮ็อตแฟนตาซี นายแบบล้มเหลวซัมเมอร์
-                    แดนเซอร์สจ๊วตเคส คาร์โก้วิดีโอสังโฆม้านั่ง เซ็นเซอร์
-                    นิรันดร์รวมมิตรแมคเคอเรลยะเยือกบลูเบอร์รี วอร์รูม
-                    อพาร์ตเมนต์สเตย์ป๊อปบึ้มมายองเนส สหัสวรรษออกแบบเบนโลพล็อต
-                    เหมย บร็อคโคลีว้อยโคโยตี โกะบู๊ซีนเซาท์ จ๊าบแมนชั่น
+                    Prefabricated Warehouse & Factory รับสร้างโกดัง
+                    โรงงานสำเร็จรูปด้วยระบบ Pre-Engineered Building
+                    และติดตั้งด้วยระบบ Bolt System มีโครงสร้างให้เลือกมากถึง 5
+                    โครงสร้าง
                   </p>
                   <h4 className="text-xl font-medium text-black md-4">
-                    Benefits
+                    Structure Type
                   </h4>
                   <ul className="list-disc list-insides space-y-3">
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
+                    <li>Build-up beam โครงสร้างเหล็กขนาดใหญ่</li>
+                    <li>Wide Flange โครงสร้างเหล็ก H-Beam </li>
+                    <li>H-Cruve โครงสร้างเหล็ก H-Beam หลังคาโค้ง</li>
+                    <li>H-Cold form โครงสร้างเสา H-Beam หลังคาโครงถัก</li>
+                    <li>Galvanized โครงสร้างเหล็กกล่องกัลวาไนซ์</li>
                   </ul>
                 </div>
                 <div className="md:w-1/2">
                   <img
-                    src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src={typeH}
                     alt="meeting"
                     className="w-full h-auto rounded-2xl object-cover"
                   />
