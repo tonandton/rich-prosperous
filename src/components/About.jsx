@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IoArrowForwardCircle, IoPlay } from "react-icons/io5";
-import imgThumnal from "../../public/promo-2.png";
+import imgThumnal from "../../public/promo-3.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
 
