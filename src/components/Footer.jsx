@@ -4,9 +4,11 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaInstagram,
-  FaLinkedinIn,
+  FaTiktok,
+  FaLine,
   FaMapMarkerAlt,
   FaPhoneAlt,
+  FaWhatsapp,
   FaTwitter,
 } from "react-icons/fa";
 
@@ -24,32 +26,33 @@ const Footer = () => {
             <span>RICH | PROPEROUS</span>
           </div>
           <p className="text-para">
-            ที่อยู่ สถานที่ตั้งบริษัท 999/99 ซอย99 รายละเอียด
+            สถานที่ตั้งบริษัท เลขที่ 798/6 ซอย 2 ประชาอุทิศ90 ถนนประชาอุทิศ​
+            ตำบลบ้านคลองสวน อำเภอพระสมุทรเจดีย์ สมุทรปราการ 10290
           </p>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://www.facebook.com/happyrishwarehouse"
               className="bg-gray-200 text-blue-700 rounded-full size-10 flex items-center justify-center hover:bg-blue-700 hover:text-white"
             >
               <FaFacebookF className="text-xl" />
             </a>
             <a
-              href="#"
+              href="https://line.me/R/ti/p/@619icnxn?ts=11222337&oat_content=url"
               className="bg-gray-200 text-blue-700 rounded-full size-10 flex items-center justify-center hover:bg-blue-700 hover:text-white"
             >
-              <FaTwitter className="text-xl" />
+              <FaLine className="text-xl" />
             </a>
             <a
               href="#"
               className="bg-gray-200 text-blue-700 rounded-full size-10 flex items-center justify-center hover:bg-blue-700 hover:text-white"
             >
-              <FaInstagram className="text-xl" />
+              <FaWhatsapp className="text-xl" />
             </a>
             <a
-              href="#"
+              href="https://www.tiktok.com/@richprosperouss?_t=ZS-8rbnHUyai7G&_r=1"
               className="bg-gray-200 text-blue-700 rounded-full size-10 flex items-center justify-center hover:bg-blue-700 hover:text-white"
             >
-              <FaLinkedinIn className="text-xl" />
+              <FaTiktok className="text-xl" />
             </a>
           </div>
         </div>
@@ -106,17 +109,21 @@ const Footer = () => {
         <div className="space-y-6">
           <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
           <ul className="space-y-3">
-            <li className="flex items-center gap-2">
+            {/* <li className="flex items-center gap-2">
               <FaMapMarkerAlt className="text-blue-700" />
               <p className="text-gray-700">999 ถนนที่อยู่ 999 ซอย 99</p>
+            </li> */}
+            <li className="flex items-center gap-2">
+              <FaPhoneAlt className="text-blue-700" />
+              <p className="text-gray-700">+66 84 296 9994 (วิศวกรแอร์)</p>
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-blue-700" />
-              <p className="text-gray-700">999-999-9999</p>
+              <p className="text-gray-700">+66 94 419 8696 (Mabelle)</p>
             </li>
             <li className="flex items-center gap-2">
               <FaEnvelope className="text-blue-700" />
-              <p className="text-gray-700">info@company.com</p>
+              <p className="text-gray-700">salericpros@gmail.com</p>
             </li>
           </ul>
         </div>

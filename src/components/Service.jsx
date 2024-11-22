@@ -60,12 +60,11 @@ const Service = () => {
                     Prefabricated Warehouse & Factory
                   </h3>
                   <p className="mb-8">
-                    Prefabricated Warehouse & Factory รับสร้างโกดัง
-                    โรงงานสำเร็จรูปด้วยระบบ Pre-Engineered Building
-                    และติดตั้งด้วยระบบ Bolt System มีโครงสร้างให้เลือกมากถึง 5
-                    โครงสร้าง
+                    รับสร้างโกดัง โรงงานสำเร็จรูปด้วยระบบ Pre-Engineered
+                    Building และติดตั้งด้วยระบบ Bolt System
+                    มีโครงสร้างให้เลือกมากถึง 5 โครงสร้าง
                   </p>
-                  <h4 className="text-xl font-medium text-black md-4">
+                  <h4 className="text-xl font-medium text-black md-4 mb-5">
                     Structure Type
                   </h4>
                   <ul className="list-disc list-insides space-y-3">
@@ -105,7 +104,7 @@ const Service = () => {
                     มีน้ำหนักเบาสามารถติดตั้งและประกอบใหม่ได้ไม่จำกัดจำนวนครั้ง
                     สามารถออกแบบให้เหมาะสมกับความต้องการขอลูกค้าได้
                   </p>
-                  <h4 className="text-xl font-medium text-black md-4">
+                  <h4 className="text-xl font-medium text-black md-4 mb-5">
                     Modular Style
                   </h4>
                   <ul className="list-disc list-insides space-y-3">
@@ -185,7 +184,7 @@ const Service = () => {
                     คอนกรีตสำเร็จรูปได้รับการตรวจมาตราฐานก่อนออกจำหน่าย
                     เพื่อช่วยลดระยะเวลาในการก่อสร้างและติดตั้งงานพื้นงานฐานราก
                   </p>
-                  <h4 className="text-xl font-medium text-black md-4">
+                  <h4 className="text-xl font-medium text-black md-4 mb-5">
                     ตัวอย่างสินค้า Precast Concrete
                   </h4>
                   <ul className="list-disc list-insides space-y-3">

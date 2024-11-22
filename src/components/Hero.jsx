@@ -4,15 +4,15 @@ import logoimg from "../../public/promo-1.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
 
-const handleScrollTo = (targetId) => {
-  const targetElement = document.getElementById(targetId);
-  if (targetElement) {
-    window.scrollTo({
-      top: targetElement.offsetTop,
-      behavior: "smooth",
-    });
-  }
-};
+// const handleScrollTo = (targetId) => {
+//   const targetElement = document.getElementById(targetId);
+//   if (targetElement) {
+//     window.scrollTo({
+//       top: targetElement.offsetTop,
+//       behavior: "smooth",
+//     });
+//   }
+// };
 
 const Hero = () => {
   return (
@@ -48,18 +48,18 @@ const Hero = () => {
             Rich Prosperous
           </h1>
           <p className="text-lg mb-12 md:pr-8">
-            รับเหมาก่อสร้างโกดัง โรงงานด้วยระบบ Pre-Engineered Building(PEB)
+            รับเหมาก่อสร้างโกดัง โรงงานด้วยระบบ PRE-Engineered Building(PEB)
             ดำเนินการครบวงจร
             มีการวางแผนการควบคุมงานตั้งแต่ต้นจนจบงานด้วยวิศวกรที่มีประสบการณ์งานสร้างมากกว่า
             1,000 โครงการ พร้อมรับประกันโครงสร้าง 10 ปี
           </p>
           <button className="bg-blue-700 hover:bg-blue-700/90 text-white py-3.5 px-8  font-medium rounded-md">
             <a
-              onClick={(e) => {
-                e.preventDefault();
-                handleScrollTo("services");
-              }}
-              href="#contact"
+              // onClick={(e) => {
+              //   e.preventDefault();
+              //   handleScrollTo("services");
+              // }}
+              href="https://drive.google.com/file/d/1C-h8HGGVAI2-Fpa462WNgrssa8_TMc7p/view"
               className="flex gap-1 items-center"
             >
               <span>อ่านต่อ</span>

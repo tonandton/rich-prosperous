@@ -18,14 +18,14 @@ const WorkingStep = () => {
       >
         <div className="text-white text-center mb-20">
           <h2 className="text-4xl font-bold font-secondary mb-4">
-            How it works
+            จุดเด่นของโครงสร้าง Rich Prosperous
           </h2>
-          <p className="text-lg md:1/2 w-full mx-auto">
+          {/* <p className="text-lg md:1/2 w-full mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
             dolorem dignissimos recusandae aliquid, dicta quae voluptatem et!
             Magni, ab quos at ut non omnis a. Vero officiis adipisci quod
             beatae.
-          </p>
+          </p> */}
         </div>
 
         <div className="flex flex-col md:w-4/5 mx-auto md:flex-row gap-8">
@@ -35,8 +35,11 @@ const WorkingStep = () => {
             </div>
             <h3 className="text-lg font-medium mt-8">
               <p className="my-2">
-                Step 1 description goes here. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit.
+                1.Time-Saving
+                โครงสร้างเหล็กสำเร็จรูปที่มีการออกแบบทางวิศวกรรมเตรียมไว้ก่อนล่วงหน้า
+                ทุกชิ้นส่วนถูกผลิตและขึ้นรูปจากโรงงาน
+                จากนั้นค่อยนำประกอบและติดตั้งที่หน้างานด้วยระบบ Bolt System
+                (ยึดต่อด้วยสลักเกลียวหรือน็อต)
               </p>
             </h3>
           </div>
@@ -46,8 +49,9 @@ const WorkingStep = () => {
             </div>
             <h3 className="text-lg font-medium mt-8">
               <p className="my-2">
-                Step 2 description goes here. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit.
+                2. Space ก่อสร้างด้วยระบบน็อกดาวน์ไม่มีเสากลาง (Clear Span)
+                ออกแบบให้มีพื้นที่ภายในกว้าง โปร่งโล่งทันสมัย
+                จัดสรรพื้นที่การใช้งานภายในอาคารได้อิสระ
               </p>
             </h3>
           </div>
@@ -57,8 +61,11 @@ const WorkingStep = () => {
             </div>
             <h3 className="text-lg font-medium mt-8">
               <p className="my-2">
-                Step 3 description goes here. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit.
+                3.Strength ผู้ผลิตที่ใช้วัสดุกลุ่มเหล็กที่รับแรงดึงได้สูงระดับ
+                High Strength หรือเทียบเท่า
+                ก็พร้อมการันตีเรื่องความแข็งแรงทนทานมากกว่าเหล็กทั่วไปประมาณ 50%
+                ผ่านการออกแบบด้วยทีมงานวิศวกรมืออาชีพ เพื่อรับแรงทุก Load Case
+                และ Combination Load Case
               </p>
             </h3>
           </div>
