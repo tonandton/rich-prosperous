@@ -4,6 +4,16 @@ import imgThumnal from "../../public/promo-3.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
 
+const handleScrollTo = (targetId) => {
+  const targetElement = document.getElementById(targetId);
+  if (targetElement) {
+    window.scrollTo({
+      top: targetElement.offsetTop,
+      behavior: "smooth",
+    });
+  }
+};
+
 const About = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
@@ -60,8 +70,15 @@ const About = () => {
               และให้ได้รับมาตราฐานตามหลักสากล
             </p>
             <button className="bg-blue-700 hover:bg-blue-700/90 text-white py-3.5 px-8  font-medium rounded-md">
-              <a href="#contact" className="flex gap-1 items-center">
-                <span>Get Started</span>
+              <a
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleScrollTo("contact");
+                }}
+                href="#contact"
+                className="flex gap-1 items-center"
+              >
+                <span>ติดต่อ</span>
                 <IoArrowForwardCircle />
               </a>
             </button>

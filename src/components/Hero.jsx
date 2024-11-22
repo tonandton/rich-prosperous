@@ -4,6 +4,16 @@ import logoimg from "../../public/promo-1.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
 
+const handleScrollTo = (targetId) => {
+  const targetElement = document.getElementById(targetId);
+  if (targetElement) {
+    window.scrollTo({
+      top: targetElement.offsetTop,
+      behavior: "smooth",
+    });
+  }
+};
+
 const Hero = () => {
   return (
     <section
@@ -44,8 +54,15 @@ const Hero = () => {
             1,000 โครงการ พร้อมรับประกันโครงสร้าง 10 ปี
           </p>
           <button className="bg-blue-700 hover:bg-blue-700/90 text-white py-3.5 px-8  font-medium rounded-md">
-            <a href="#contact" className="flex gap-1 items-center">
-              <span>Get Started</span>
+            <a
+              onClick={(e) => {
+                e.preventDefault();
+                handleScrollTo("services");
+              }}
+              href="#contact"
+              className="flex gap-1 items-center"
+            >
+              <span>อ่านต่อ</span>
               <IoArrowForwardCircle />
             </a>
           </button>
