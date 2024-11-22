@@ -1,6 +1,6 @@
 import React from "react";
 import { IoArrowForwardCircle } from "react-icons/io5";
-import logoimg from "../../public/rich-icon.png";
+import logoimg from "../../public/promo-1.png";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
 
@@ -38,9 +38,10 @@ const Hero = () => {
             Rich Prosperous
           </h1>
           <p className="text-lg mb-12 md:pr-8">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe rem
-            in eos, similique, aspernatur est a aliquid maiores numquam ex autem
-            tempora, enim provident. Quos illum quis corporis sit? Eligendi.
+            รับเหมาก่อสร้างโกดัง โรงงานด้วยระบบ Pre-Engineered Building(PEB)
+            ดำเนินการครบวงจร
+            มีการวางแผนการควบคุมงานตั้งแต่ต้นจนจบงานด้วยวิศวกรที่มีประสบการณ์งานสร้างมากกว่า
+            1,000 โครงการ พร้อมรับประกันโครงสร้าง 10 ปี
           </p>
           <button className="bg-blue-700 hover:bg-blue-700/90 text-white py-3.5 px-8  font-medium rounded-md">
             <a href="#contact" className="flex gap-1 items-center">
