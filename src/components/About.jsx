@@ -32,7 +32,7 @@ const About = () => {
                 <img
                   src={imgThumnal}
                   alt="video thumbnail"
-                  className="w-full md:h-[446px] h-auto rounded-lg object-cover"
+                  className="w-full md:h-[446px] h-auto rounded-lg object-contain"
                 />
                 <button
                   onClick={handleVideoPlay}
