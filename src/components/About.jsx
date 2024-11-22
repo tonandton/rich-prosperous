@@ -47,9 +47,10 @@ const About = () => {
           {/* right side */}
           <div className="md:w-1/2 w-full">
             <h2 className="text-4xl capitalize  font-secondary font-bold mb-4 md:w-3/5 leading-snug">
-              บริษัท ริช พอรสเพอร์รัส คอนสตรัคชั่น จำกัด
+              About Us
             </h2>
             <p className="text-lg mb-12 md:pr-8">
+              บริษัท ริช พอรสเพอร์รัส คอนสตรัคชั่น จำกัด
               ดำเนินธุรกิจรับเหมาก่อสร้างโกดัง โรงงาน คลังสินค้า อาคารสำนักงาน
               ทั้งขนาดเล็กไปจนถึงขนาดใหญ่ โดยใช้ระบบ Pre-Engineered Building
               มีระบบใบเสนอราคา
