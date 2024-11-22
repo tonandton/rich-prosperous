@@ -4,6 +4,9 @@ import "react-tabs/style/react-tabs.scss";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
 import typeH from "../../public/HW-H.jpg";
+import modular from "../../public/modular-house.jpg";
+import realEstate from "../../public/realestate.jpg";
+import precast from "../../public/precast.jpg";
 
 const Service = () => {
   return (
@@ -38,10 +41,10 @@ const Service = () => {
         >
           <Tabs>
             <TabList className="flex flex-wrap justify-between items-center md:gap-8 gap-4">
-              <Tab>หัวข้อที่ 1</Tab>
-              <Tab>หัวข้อที่ 2</Tab>
-              <Tab>หัวข้อที่ 3</Tab>
-              <Tab>หัวข้อที่ 4</Tab>
+              <Tab>Prefabricated Warehouse</Tab>
+              <Tab>Modular House </Tab>
+              <Tab>Real Estate</Tab>
+              <Tab>Precast </Tab>
             </TabList>
 
             <TabPanel>
@@ -54,7 +57,7 @@ const Service = () => {
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
-                    หัวข้อที่ 1
+                    Prefabricated Warehouse & Factory
                   </h3>
                   <p className="mb-8">
                     Prefabricated Warehouse & Factory รับสร้างโกดัง
@@ -76,7 +79,7 @@ const Service = () => {
                 <div className="md:w-1/2">
                   <img
                     src={typeH}
-                    alt="meeting"
+                    alt="typeH"
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
@@ -93,30 +96,28 @@ const Service = () => {
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
-                    หัวข้อที่ 2
+                    Modular House
                   </h3>
                   <p className="mb-8">
-                    แอลมอนด์ โง่เขลารากหญ้า เกย์โบรชัวร์เจไดวินเซ็กซ์
-                    ติวซิตี้สเตเดียม งี้แคนูติ่มซำมิลค์เลคเชอร์
-                    บอกซ์ภควัมบดีคอร์รัปชันเอ็นจีโอ
-                    กระดี๊กระด๊าแหววรายชื่อแรลลีลาติน เบอร์รีคอร์รัปชัน
-                    ซิตี้กุนซือ มิลค์ ทัวริสต์นายพรานคอนแท็ค
-                    พงษ์ลิมูซีนไนท์มาร์ชโปรเจ็ค ฮาร์ดไฮเวย์ ซูโม่ สติกเกอร์โบว์
-                    อัลตราพะเรอ
+                    รับสร้างบ้านสำเร็จรูป
+                    วัสดุที่ใช้ในการสร้างเป็นวัสดุกันความร้อน แข็งแรง
+                    หลังคาและผนังเป็น EPS
+                    มีน้ำหนักเบาสามารถติดตั้งและประกอบใหม่ได้ไม่จำกัดจำนวนครั้ง
+                    สามารถออกแบบให้เหมาะสมกับความต้องการขอลูกค้าได้
                   </p>
                   <h4 className="text-xl font-medium text-black md-4">
-                    Benefits
+                    Modular Style
                   </h4>
                   <ul className="list-disc list-insides space-y-3">
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
+                    <li>American Style บ้านสำเร็จรูปสไตล์อเมริกัน</li>
+                    <li>Office Style สำนักงานสำเร็จรูป</li>
+                    <li>Sanitary Room ห้องน้ำสำเร็จรูป </li>
                   </ul>
                 </div>
                 <div className="md:w-1/2">
                   <img
-                    src="https://plus.unsplash.com/premium_photo-1661302828763-4ec9b91d9ce3?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="meeting"
+                    src={modular}
+                    alt="modular"
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
@@ -133,32 +134,32 @@ const Service = () => {
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
-                    หัวข้อที่ 3
+                    Real Estate
                   </h3>
                   <p className="mb-8">
-                    ซูโม่เพรียวบางสมิติเวชหมั่นโถว พุทธภูมิ ราเมน
-                    อีสต์เอ็นทรานซ์ซานตาคลอสสเตริโอธุรกรรม
-                    พอเพียงสแล็กโซลาร์ฮิช็อป ไลน์ไคลแม็กซ์คอร์รัปชันกุนซือ
-                    โอยัวะโปรเจคท์สปอต เย้วแดนเซอร์แจ๊กเก็ตยังไง
-                    แฟ็กซ์บรรพชนทอร์นาโดทรูหล่อฮังก้วย
-                    ปัจฉิมนิเทศสไตล์สเตเดียมเอาท์ดอร์บูม
-                    เมจิคเทวาธิราชปิยมิตรสปาย อาข่าฉลุยตัวเองติ๋ม
-                    จิ๊กโก๋เซอร์อิ่มแปร้ เห็นด้วยฮาลาลเหี่ยวย่นน็อกคอนโดมิเนียม
-                    อุเทนแอโรบิคฟอร์มสะบึมเอสเปรสโซ ซีรีส์คันธาระ
+                    รับดูแลและบริหารโครงการโกดังเช่าสำหรับผู้ที่มีที่ดินเปล่าแต่ไม่ได้มีการใช้สอย
+                    ทางเราพร้อมดูแลให้ตั้งแต่ต้นน้ำ จนถึงปลายน้ำ
+                    มากไปกว่านั้นทางเรายังมีบริการอสังหาริมทรัพย์เพื่อขาย
+                    และให้เช่ามากกว่า 30 โครงการ
                   </p>
-                  <h4 className="text-xl font-medium text-black md-4">
+                  {/* <h4 className="text-xl font-medium text-black md-4">
                     Benefits
-                  </h4>
+                  </h4> */}
                   <ul className="list-disc list-insides space-y-3">
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
+                    <li>บริหารโครงการโกดังให้เช่าสำหรับนักลงทุน</li>
+                    <li>
+                      โครงการโกดังเช่ากรุงเทพมหานคร และปริมณฑล EEC รวมกว่า 20
+                      โครงการ{" "}
+                    </li>
+                    <li>
+                      โครงการอสังหาริมทรัพย์ฝากขาย-เช่า มากกว่า 10 โครงการ
+                    </li>
                   </ul>
                 </div>
                 <div className="md:w-1/2">
                   <img
-                    src="https://plus.unsplash.com/premium_photo-1661962911608-ea55ac7785da?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="meeting"
+                    src={realEstate}
+                    alt="realEstate"
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
@@ -175,29 +176,30 @@ const Service = () => {
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
-                    หัวที่ 4
+                    Precast
                   </h3>
                   <p className="mb-8">
-                    ซีดาน เวสต์ เทคโนแอ็กชั่นตังค์ สโลว์เทรนด์วานิลลา
-                    เจ๊าะแจ๊ะเซอร์วิสฟลุค เธคสแตนดาร์ดเสือโคร่งไทม์
-                    สามช่าเกมส์ไบเบิล คลิปโอเวอร์ช็อปเปอร์แลนด์
-                    บู๊สุริยยาตรแฟร์แอสเตอร์ทอร์นาโด รีโมตซาดิสต์ซูฮก โนติส
-                    ไฟลท์ไตรมาส แฟรี่แล็บ เอาท์ดอร์ฮิปโปบาร์บี้เยอร์บีราจิตเภท
-                    เซ็กซ์แบตไมค์ง่าว มหภาคโปรเจ็กต์
+                    จำหน่ายชิ้นส่วนคอนกรีตสำเร็จรูป
+                    พร้อมบริการให้คำปรึกษาแนะนำการใช้
+                    ติดตั้งชิ้นส่วนคอนกรีตสำเร็จของแต่ละพื้นที่หน้างาน
+                    คอนกรีตสำเร็จรูปได้รับการตรวจมาตราฐานก่อนออกจำหน่าย
+                    เพื่อช่วยลดระยะเวลาในการก่อสร้างและติดตั้งงานพื้นงานฐานราก
                   </p>
                   <h4 className="text-xl font-medium text-black md-4">
-                    Benefits
+                    ตัวอย่างสินค้า Precast Concrete
                   </h4>
                   <ul className="list-disc list-insides space-y-3">
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
-                    <li>Understring Relationship Dynamics</li>
+                    <li>ฐานรากสำเร็จรูป</li>
+                    <li>คานคอดิน</li>
+                    <li>รั้วสำเร็จรูป</li>
+                    <li>กำแพงกันดิน</li>
+                    <li>เสารั้วสำเร็จรูป</li>
                   </ul>
                 </div>
                 <div className="md:w-1/2">
                   <img
-                    src="https://plus.unsplash.com/premium_photo-1679923813998-6603ee2466c5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="meeting"
+                    src={precast}
+                    alt="precast"
                     className="w-full h-auto rounded-2xl object-cover"
                   />
                 </div>
