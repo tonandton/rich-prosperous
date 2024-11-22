@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.scss";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
-import typeH from "../../public/HW-H.jpg";
+import typeH from "../../public/typeH.jpg";
 import modular from "../../public/modular-house.jpg";
 import realEstate from "../../public/realestate.jpg";
 import precast from "../../public/precast.jpg";

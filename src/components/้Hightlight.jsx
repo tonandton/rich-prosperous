@@ -2,10 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utilis/animationVariants";
 
-const WorkingStep = () => {
+const Highlight = () => {
   return (
     <div
-      id="howtowork"
+      id="highlight"
       className="relative bg-cover bg-center py-12 bg-working-img"
     >
       <div className="absolute inset-0 bg-black bg-opacity-85"></div>
@@ -75,4 +75,4 @@ const WorkingStep = () => {
   );
 };
 
-export default WorkingStep;
+export default Highlight;

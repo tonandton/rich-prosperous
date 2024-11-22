@@ -5,7 +5,7 @@ import Services from "./components/Service";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
 import Testimonial from "./components/Testimonial";
-import WorkingStep from "./components/WorkingStep";
+import Highlight from "./components/้Hightlight";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -17,7 +17,7 @@ function App() {
         <Hero />
         <Services />
         <About />
-        <WorkingStep />
+        <Highlight />
         {/* <Pricing /> */}
         {/* <Testimonial /> */}
         {/* <Contact /> */}

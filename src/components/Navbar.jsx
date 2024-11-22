@@ -12,14 +12,7 @@ const Navbar = () => {
     setIsopen(false);
   };
   const handleScroll = () => {
-    const sections = [
-      "home",
-      "services",
-      "about",
-      "howtowork",
-      "pricing",
-      "testimonial",
-    ];
+    const sections = ["home", "services", "about", "highlight", "testimonial"];
     const scrollPosition = window.scrollY + 100;
 
     sections.forEach((section) => {
@@ -107,14 +100,14 @@ const Navbar = () => {
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTop={{ scale: 0.9 }}
-          href="#howtowork"
+          href="#hightliht"
           onClick={(e) => {
             e.preventDefault();
             handleCloseMenu();
-            handleScrollTo("howtowork");
+            handleScrollTo("hightliht");
           }}
           className={`text-black ${
-            activeSection === "howtowork" ? "isActive" : ""
+            activeSection === "hightliht" ? "isActive" : ""
           }`}
         >
           How To Work
@@ -124,20 +117,20 @@ const Navbar = () => {
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTop={{ scale: 0.9 }}
-          href="#pricing"
+          href="#highlight"
           onClick={(e) => {
             e.preventDefault();
             handleCloseMenu();
-            handleScrollTo("pricing");
+            handleScrollTo("highlight");
           }}
           className={`text-black ${
-            activeSection === "pricing" ? "isActive" : ""
+            activeSection === "highlight" ? "isActive" : ""
           }`}
         >
-          ข้อกำหนด
+          จุดเด่น
         </motion.a>
       </li>
-      <li>
+      {/* <li>
         <motion.a
           whileHover={{ scale: 1.1 }}
           whileTop={{ scale: 0.9 }}
@@ -153,7 +146,7 @@ const Navbar = () => {
         >
           Testimonial
         </motion.a>
-      </li>
+      </li> */}
     </ul>
   );
 
