@@ -53,9 +53,9 @@ const Service = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="flex flex-col md:flex-row gap-8 mt-8"
+                className="flex flex-col md:flex-row gap-4 mt-2"
               >
-                <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
+                <div className="md:w-1/2 bg-white rounded-lg p-6 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
                     Prefabricated Warehouse & Factory
                   </h3>
