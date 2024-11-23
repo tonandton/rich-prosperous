@@ -40,7 +40,7 @@ const Service = () => {
           className="py-12 md:w-4/5 mx-auto"
         >
           <Tabs>
-            <TabList className="flex flex-wrap justify-between items-center md:gap-8 gap-4">
+            <TabList className="flex flex-wrap justify-between items-center md:gap-4 gap-4">
               <Tab>Prefabricated Warehouse</Tab>
               <Tab>Modular House </Tab>
               <Tab>Real Estate</Tab>
@@ -64,10 +64,10 @@ const Service = () => {
                     Building และติดตั้งด้วยระบบ Bolt System
                     มีโครงสร้างให้เลือกมากถึง 5 โครงสร้าง
                   </p>
-                  <h4 className="text-xl font-medium text-black md-4 mb-5">
+                  <h4 className="text-xl font-medium text-black mb-5">
                     Structure Type
                   </h4>
-                  <ul className="list-disc list-insides space-y-3">
+                  <ul className="list-disc list-insides space-y-1">
                     <li>Build-up beam โครงสร้างเหล็กขนาดใหญ่</li>
                     <li>Wide Flange โครงสร้างเหล็ก H-Beam </li>
                     <li>H-Cruve โครงสร้างเหล็ก H-Beam หลังคาโค้ง</li>
@@ -91,7 +91,7 @@ const Service = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="flex flex-col md:flex-row gap-8 mt-8"
+                className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
@@ -104,10 +104,10 @@ const Service = () => {
                     มีน้ำหนักเบาสามารถติดตั้งและประกอบใหม่ได้ไม่จำกัดจำนวนครั้ง
                     สามารถออกแบบให้เหมาะสมกับความต้องการขอลูกค้าได้
                   </p>
-                  <h4 className="text-xl font-medium text-black md-4 mb-5">
+                  <h4 className="text-xl font-medium text-black mb-5">
                     Modular Style
                   </h4>
-                  <ul className="list-disc list-insides space-y-3">
+                  <ul className="list-disc list-insides space-y-1">
                     <li>American Style บ้านสำเร็จรูปสไตล์อเมริกัน</li>
                     <li>Office Style สำนักงานสำเร็จรูป</li>
                     <li>Sanitary Room ห้องน้ำสำเร็จรูป </li>
@@ -129,7 +129,7 @@ const Service = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="flex flex-col md:flex-row gap-8 mt-8"
+                className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
@@ -144,7 +144,7 @@ const Service = () => {
                   {/* <h4 className="text-xl font-medium text-black md-4">
                     Benefits
                   </h4> */}
-                  <ul className="list-disc list-insides space-y-3">
+                  <ul className="list-disc list-insides space-y-1">
                     <li>บริหารโครงการโกดังให้เช่าสำหรับนักลงทุน</li>
                     <li>
                       โครงการโกดังเช่ากรุงเทพมหานคร และปริมณฑล EEC รวมกว่า 20
@@ -171,7 +171,7 @@ const Service = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="flex flex-col md:flex-row gap-8 mt-8"
+                className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
                   <h3 className="text-3xl font-semibold text-blue-700 mb-4">
@@ -184,10 +184,10 @@ const Service = () => {
                     คอนกรีตสำเร็จรูปได้รับการตรวจมาตราฐานก่อนออกจำหน่าย
                     เพื่อช่วยลดระยะเวลาในการก่อสร้างและติดตั้งงานพื้นงานฐานราก
                   </p>
-                  <h4 className="text-xl font-medium text-black md-4 mb-5">
+                  <h4 className="text-xl font-medium text-black mb-5">
                     ตัวอย่างสินค้า Precast Concrete
                   </h4>
-                  <ul className="list-disc list-insides space-y-3">
+                  <ul className="list-disc list-insides space-y-1">
                     <li>ฐานรากสำเร็จรูป</li>
                     <li>คานคอดิน</li>
                     <li>รั้วสำเร็จรูป</li>
