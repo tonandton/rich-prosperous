@@ -17,7 +17,7 @@ const Service = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-center space-y-5"
+          className="text-center space-y-1"
         >
           <h2 className="text-4xl font-bold font-secondary text-black">
             Rich Prosperous Service
