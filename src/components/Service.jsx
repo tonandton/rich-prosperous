@@ -40,7 +40,7 @@ const Service = () => {
           className="py-12 md:w-4/5 mx-auto"
         >
           <Tabs>
-            <TabList className="flex flex-wrap justify-between items-center md:gap-4 gap-4">
+            <TabList className="flex flex-wrap justify-between items-center md:gap-4 gap-4 sm:gap-1 md:text-xs">
               <Tab>Prefabricated Warehouse</Tab>
               <Tab>Modular House </Tab>
               <Tab>Real Estate</Tab>
