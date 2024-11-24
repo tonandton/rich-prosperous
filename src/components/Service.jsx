@@ -16,7 +16,7 @@ const Service = () => {
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.4 }}
           className="text-center space-y-1"
         >
           <h2 className="text-4xl font-bold font-secondary text-black">
@@ -36,11 +36,11 @@ const Service = () => {
           variants={fadeIn("up", 0.1)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.4 }}
           className="py-12 md:w-4/5 mx-auto"
         >
           <Tabs>
-            <TabList className="flex flex-wrap justify-between items-center md:gap-4 gap-4 sm:gap-1 md:text-xs">
+            <TabList className="flex flex-wrap justify-between items-center md:gap-4 gap-1  text-sm md:text-lg">
               <Tab>Prefabricated Warehouse</Tab>
               <Tab>Modular House </Tab>
               <Tab>Real Estate</Tab>
@@ -52,7 +52,7 @@ const Service = () => {
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: false, amount: 0.4 }}
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-6 font-secondary">
@@ -90,7 +90,7 @@ const Service = () => {
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: false, amount: 0.4 }}
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
@@ -128,7 +128,7 @@ const Service = () => {
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: false, amount: 0.4 }}
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
@@ -170,7 +170,7 @@ const Service = () => {
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: false, amount: 0.4 }}
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
