@@ -56,15 +56,15 @@ const Service = () => {
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-6 font-secondary">
-                  <h3 className="text-3xl font-semibold text-blue-700 mb-4">
+                  <h3 className="text-xl font-semibold text-blue-700 mb-4">
                     Prefabricated Warehouse & Factory
                   </h3>
-                  <p className="mb-8">
+                  <p className="mb-3">
                     รับสร้างโกดัง โรงงานสำเร็จรูปด้วยระบบ PRE-Engineered
                     Building และติดตั้งด้วยระบบ Bolt System
                     มีโครงสร้างให้เลือกมากถึง 5 โครงสร้าง
                   </p>
-                  <h4 className="text-xl font-medium text-black mb-5">
+                  <h4 className="text-xl font-medium text-black mb-2">
                     Structure Type
                   </h4>
                   <ul className="list-disc list-insides space-y-1">
@@ -94,17 +94,17 @@ const Service = () => {
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
-                  <h3 className="text-3xl font-semibold text-blue-700 mb-4">
+                  <h3 className="text-xl font-semibold text-blue-700 mb-4">
                     Modular House
                   </h3>
-                  <p className="mb-8">
+                  <p className="mb-3">
                     รับสร้างบ้านสำเร็จรูป
                     วัสดุที่ใช้ในการสร้างเป็นวัสดุกันความร้อน แข็งแรง
                     หลังคาและผนังเป็น EPS
                     มีน้ำหนักเบาสามารถติดตั้งและประกอบใหม่ได้ไม่จำกัดจำนวนครั้ง
                     สามารถออกแบบให้เหมาะสมกับความต้องการขอลูกค้าได้
                   </p>
-                  <h4 className="text-xl font-medium text-black mb-5">
+                  <h4 className="text-xl font-medium text-black mb-2">
                     Modular Style
                   </h4>
                   <ul className="list-disc list-insides space-y-1">
@@ -132,10 +132,10 @@ const Service = () => {
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
-                  <h3 className="text-3xl font-semibold text-blue-700 mb-4">
+                  <h3 className="text-xl font-semibold text-blue-700 mb-4">
                     Real Estate
                   </h3>
-                  <p className="mb-8">
+                  <p className="mb-3">
                     รับดูแลและบริหารโครงการโกดังเช่าสำหรับผู้ที่มีที่ดินเปล่าแต่ไม่ได้มีการใช้สอย
                     ทางเราพร้อมดูแลให้ตั้งแต่ต้นน้ำ จนถึงปลายน้ำ
                     มากไปกว่านั้นทางเรายังมีบริการอสังหาริมทรัพย์เพื่อขาย
@@ -174,18 +174,19 @@ const Service = () => {
                 className="flex flex-col md:flex-row gap-4 mt-2"
               >
                 <div className="md:w-1/2 bg-white rounded-lg p-12 font-secondary">
-                  <h3 className="text-3xl font-semibold text-blue-700 mb-4">
+                  <h3 className="text-xl font-semibold text-blue-700 mb-4">
                     Precast
                   </h3>
-                  <p className="mb-8">
+                  <p className="mb-3">
                     จำหน่ายชิ้นส่วนคอนกรีตสำเร็จรูป
                     พร้อมบริการให้คำปรึกษาแนะนำการใช้
                     ติดตั้งชิ้นส่วนคอนกรีตสำเร็จของแต่ละพื้นที่หน้างาน
                     คอนกรีตสำเร็จรูปได้รับการตรวจมาตราฐานก่อนออกจำหน่าย
                     เพื่อช่วยลดระยะเวลาในการก่อสร้างและติดตั้งงานพื้นงานฐานราก
                   </p>
-                  <h4 className="text-xl font-medium text-black mb-5">
-                    ตัวอย่างสินค้า Precast Concrete
+                  <h4 className="text-xl font-medium text-black mb-2">
+                    {/* ตัวอย่างสินค้า Precast Concrete */}
+                    Precast Concrete
                   </h4>
                   <ul className="list-disc list-insides space-y-1">
                     <li>ฐานรากสำเร็จรูป</li>

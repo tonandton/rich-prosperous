@@ -13,7 +13,7 @@ const Highlight = () => {
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView={"show"}
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.3 }}
         className="relative container mx-auto px-4 py-20"
       >
         <div className="text-white text-center mb-20">
